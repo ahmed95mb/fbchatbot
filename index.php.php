@@ -1,5 +1,6 @@
 <?php
 
+$heroku buildpacks:set heroku/php
 $git push heroku master
 $method = $_SERVER['REQUEST_METHOD'];
 
